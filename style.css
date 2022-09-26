@@ -1,0 +1,115 @@
+body{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  height: 465px;
+  width: 830px;
+  text-align: left;
+}
+
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.3rem;
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.87rem;
+  line-height: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.col{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.seadanscont{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.seadansbtn{
+  color: hsl(31, 77%, 52%);
+}
+
+
+.seadansbtn:hover{
+  border-style: solid;
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.suvcont{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvbtn{
+  color: hsl(184, 100%, 22%);
+}
+
+
+.suvbtn:hover{
+  border-style: solid;
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.luxurycont{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.luxurybtn{
+  color: hsl(179, 100%, 13%);
+}
+
+
+.luxurybtn:hover{
+  border-style: solid;
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+.btns{
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  border: none;
+  width: 130px;
+  padding: 11px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.9rem;
+  border: 2px solid;
+}
+
+
+.sedanicon, .suvicon, .luxuryicon{
+  height: 50x;
+}
+
+footer{
+  margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 375px) {
+  body{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .row{
+    width: 360px;
+  }
+}
